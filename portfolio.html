@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio Kellin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px; line-height: 30px;}
+
+  h3 {font-size:22px;}
+  h4 {font-size:15px;}
+  h5 {font-size: 16px}
+
+   .custom-italic {
+        line-height: 0.5;
+        margin-bottom: 0;
+     margin-top: 0;
+    }
+  
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  opacity: 0.7;
+}
+.column img:hover {
+  opacity: 1.0;
+}
+
+{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.row img:hover{opacity:1}
+  
+  #modal01 video {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+</style>
+</head>
+<body>
+  
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue-gray w3-collapse w3-top w3-large w3-padding;" style="z-index:3;width:300px;font-weight:bold;color:white;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>My<br>Portfolio</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a> 
+    <a href="#yep" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recent Experience</a> 
+        <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects and Work</a> 
+    <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Visual Media</a> 
+  
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-orange w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-orange w3-margin-right" onclick="w3_open()">☰</a>
+  <span>My Portfolio</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo w3-text-orange"><b>Welcome to my Portfolio</b></h1> <br>
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Hi, I'm Kellin.</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+  </div>
+
+  <!-- About Me -->
+  <div class="w3-container" id="About Me" style="margin-top:15px">
+    <h1 class="w3-xxlarge w3-text-blue-gray"><b>About Me</b></h1>
+    <p>Welcome to my personal website!</p>
+    <p>I am a recent university graduate with a BA in International Economics and another BA in Art History. The current focus of my studies has been visual analysis of artwork from the 18th to 21st centuries, as well as economic theory and macro-related issues. Throughout my studies I sought to explore the interrelationships between various disciplines, while also trying to understand possible connections with emerging technologies.
+    <br> 
+      <p>I have some experience in branding and marketing, which I learned both in university and through internship experience. I enjoy coordinating and strategising, and am developing further skills as I learn digital marketing online. </p>
+    Beyond these subjects, I have a passionate interest in the world of web3. Though I already have a good understanding of blockchain technology in theory, I am currently in the process of deepening this on a practical level. I follow online courses in my free time, with one of my goals being learning how to effectively code smart contracts. 
+  <br> <br>
+    You can grasp my proficiency in html/css by browsing this site :)
+      <br> 
+  <br>
+          <img src="https://ac.aup.edu/~a103379/proficiencies.png" style= "width:100%">
+    <br>  
+
+  <b>Key interests:</b> International art market, web3, machine learning, applications of AI, cryptography 
+    </p>
+<h4 class="w3-large w3-text-blue-gray"><b>Contact: laconicity@proton.me</b></h4> 
+
+  </div>
+  
+      <!-- Resume -->
+  <div class="w3-container" id="yep" style="margin-top:15px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Most Recent Experience</b></h1>
+        <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <p>
+      <b> Intern</b>, <a>The DAOist </a>        —  present  <br>
+      <b> Assistant to Iveta Slavkova, PhD</b>  |  Editing content for <i>Ecology and Surrealism</i>, book to be published by Vernon Press —  present <br>
+      
+      <b>Intern Paris Market Week</b>,  <a href="https://laquansmith.com/">LaQuan Smith</a> | Paris	  — 	October 2022, March 2023 <br>
+      <b> Paris Event Intern</b>, <a href=https://www.thedaoist.org/ >The DAOist  <i>EthCC </i></a>        —  July 2023  <br>
+      <b> Volunteer</b>, <a href=https://www.nftparis.xyz/ >NFT Paris</a>  | Grand Palais Éphémère, Paris   —  February 2023  <br>
+      <b>ExOrdo Stage Manager</b> | International Society for the Study of Surrealism, Conference 2022 | Remote   —	November 2022  
+    <br> 
+ <b> Intern, <a href="https://www.musee-orsay.fr/en/whats-on/events/la-nuit-americaine">La Nuit américaine</a></b> | Musée d’Orsay in partnership with Villa Albertine, Paris  —	November 2022  
+<br>
+  <b>Employer Branding Intern</b>, NN Group IT HUB | Prague, CZ; Remote   —  May to October 2022
+ <br> 
+  <b>Styling/Creative Direction,</b> <a href="https://syncbysymone.com/">Sync by Symone</a> | Milan, IT  	—   September 2022
+ <br> 
+ <b>Volunteer </b><a href="https://ethprague.com/">ETH Prague</a>, Paralelni Polis, La Fabrika | Prague, CZ			—		June 2022
+      <br> 
+   <b style="margin-top: 0;">Youth Entrepreneur Program</b> City of Temecula | Temecula, CA   		—			2017, 2018 <br>
+<i class="custom-italic"><font size="-1"> Designed innovative product/service and developed a business model to pitch to a board of professionals experienced in entrepreneurship, law, sales, and marketing. Learned about operating a start up.
+Created the company website for both years using Wix and HTML/CSS, created product specifications. </font> </i> 
+    </p>
+    
+   <h1> Certifications </h1> 
+    <p>
+   <b><a href="https://ac.aup.edu/~a103379/cert.html">Social Media Marketing with HubSpot</a> </b> <br>
+  - How to build an effective social media strategy, extend your reach, excel in digital advertising, measure ROI, etc.
+ <br> 
+ <b><a href="https://university.atlassian.com/student/award/3XUJ11psGjQky4nBFDzUaRFS">Beginner’s Guide to Agile in Jira </a> </b> <br>
+  - Introduction to Agile: tutorials on kanban and scrum frameworks
+  - Jira software training
+ <br> 
+  <b><a href="https://coursera.org/share/121336802012f2a5e0cb33bc5b508762">Blockchain Basics Certification</a> </b> (Completed with Coursera) <br>
+- Blockchain essentials and running an Ethereum node using VirtualBox. 
+ <br> 
+ <b><a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/7Qag9adQSgNXKXZG9_Accenture_eigyT9vT47u2zrRho_1647189377604_completion_certificate.pdf">Accenture Assessing Client Needs Virtual Experience</a> </b> (participated with Forage) <br>
+- Learned how to develop a requirements gathering project plan <br>
+- Writing stakeholder interview guides <br>
+- Building requirements gathering process maps with UML <br>
+
+    </p>  
+  </div>
+  
+  <!-- My Recent Visual Work -->
+  <div class="w3-container" id="projects" style="margin-top:25px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>My Recent Work</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <p>I've worked on projects ranging from photography to graphic design and brand development.
+      <br>
+</p>
+
+  
+    <p class="w3-xlarge w3-text-blue-gray"><b>Please click on the images to view</b>:</p>
+  </div>
+
+  <!-- Projects -->
+  <div class="w3-row-padding w3">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-orange">
+   <a href="https://ac.aup.edu/~a103379/OTHERPAGE.html">
+  <img src="https://ac.aup.edu/~a103379/pap.jpg" alt="Paper" style="width:100%" > </a>       <div class="w3-container">
+          <h3 class= "w3-text-white w3 text-bold">Smart Contracts Paper</h3>
+          <p class="w3-opacity w3-text-white">Writing</p>
+          <p class= "w3-text-white w3 text-bold">This is a recent report I wrote on smart contracts, more specifically on how blockchain technology can be understood from an Institutional Economics perspective.</p> <br>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-orange">
+           <a href="https://ac.aup.edu/~a103379/campaign.html">
+  <img src="https://ac.aup.edu/~a103379/COFIT.jpg" alt="COFIT Campaign" style="width:100%" >
+</a>
+        <div class="w3-container">
+          <h3 class= "w3-text-white w3 text-bold">Recruitment Campaign</h3>
+          <p class="w3-opacity w3-text-white">Design & Presentation</p>
+          <p class= "w3-text-white w3 text-bold">I worked as an Employer Branding intern for NN Group. My focus was on formulating design concepts for the NN IT Hub based in Prague, CZ. This is a presentation for a campaign I created to recruit recent graduates.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-orange">
+       <a href="https://www.cocuma.co/company/NNITHUB/"><img src="https://ac.aup.edu/~a103379/ITHUB.jpg" alt="COFIT Campaign" style="width:100%" >
+</a>
+        <div class="w3-container">
+          <h3 class= "w3-text-white w3 text-bold">Career Page</h3>
+          <p class="w3-opacity w3-text-white">Proofreading and Branding</p>
+          <p class= "w3-text-white w3 text-bold">This is the career page I helped write and reformat for NN IT Hub, available on Cocuma, a Czech online database for attracting future employees to member companies.</p><br>
+  </div>
+      </div>
+    </div>
+  </div>
+  
+    <!--Photography-->
+  <div class="w3-container" id="photos" style="margin-top:25px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Visual Media</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+  </div>
+
+  <!-- Photo grid (modal) -->
+<div class="row">
+  <div class="column">
+       <img src="https://ac.aup.edu/~a103379/lolita.png" style="width:100%" onclick="onClick(this)" alt="brand flyer I created with QR code for mobile users (code covered)">
+      <img src="https://ac.aup.edu/~a103379/AD.jpg" style="width:100%" onclick="onClick(this)" alt="recruitment newsletter ad NN">
+       <img src="https://ac.aup.edu/~a103379/IT.jpg" style="width:100%" onclick="onClick(this)" alt="alternate social media marketing image"> 
+
+    </div>
+ <div class="column">
+      <img src="https://ac.aup.edu/~a103379/HUB.jpg" onclick="onClick(this)" alt="social media marketing image for Linkedin"> 
+    <!-- Add a video thumbnail image that enlarges when clicked -->
+    <img src="mil.png" style="width:100%; cursor: pointer;" onclick="playVideo('sitemil.mp4', 'mobile landing page for project site')">
+  </div>
+  
+<div class="column">
+     <img src="https://ac.aup.edu/~a103379/page.jpg" style="width:100%" onclick="onClick(this)" alt="resource engine map for NN IT Hub CEO">
+     <img src="https://ac.aup.edu/~a103379/eaat.png" style="width:100%" onclick="onClick(this)" alt="instagram story post for brand">
+     <img src="takecaution.jpg" style="width:100%" onclick="onClick(this)" alt="multimedia digital art piece">
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+ 
+<!-- Modal for videos -->
+<div id="videoModal" class="w3-modal" style="padding-top:0" onclick="closeVideo()">
+  <div class="w3-modal-content w3-black w3-animate-zoom w3-center" style="background-color:black; width:100%; max-width:800px; padding-top: 80px; padding-bottom:20px;">
+    <span class="w3-button w3-xxlarge w3-display-topright">×</span>
+    <video id="video1" controls style="width:60%;">
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p id="videoCaption" style="color:white;"></p>
+  </div>
+</div>
+                     <br>
+  
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"> <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+  // Function to play video
+function playVideo(videoSrc, altText) {
+  var videoModal = document.getElementById("videoModal");
+  var video = document.getElementById("video1");
+  var videoCaption = document.getElementById("videoCaption");
+
+  // Set video source and caption
+  video.src = videoSrc;
+  videoCaption.innerHTML = altText;
+
+  // Display the video modal
+  videoModal.style.display = "block";
+  video.play(); // Play the video
+}
+
+// Function to close the video modal
+function closeVideo() {
+  var videoModal = document.getElementById("videoModal");
+  var video = document.getElementById("video1");
+
+  // Pause the video and reset the source
+  video.pause();
+  video.src = "";
+
+  // Close the video modal
+  videoModal.style.display = "none";
+}
+  
+</script>
+  
+
+</body>
+</html>
