@@ -12,10 +12,70 @@ body {font-size:16px;}
   body {
     background-color: white;
   }
+/* the ticker tape */
+
+  .top-message {
+            background-color: #abd6ce;
+            color: white;
+            font-family: helvetica;
+            text-transform: uppercase;
+            overflow-x: hidden;
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            min-width: 100%;
+            margin-bottom: 0;
+        }
+  .news-message {
+            display: flex;
+            flex-shrink: 0;
+            height: 50px;
+            align-items: center;
+            animation: slide-left 10s linear infinite;
+        }
+
+        .news-message p {
+            font-size: 2.5em;
+            font-weight: 100;
+            padding-left: 0.5em;
+        }
+
+        @keyframes slide-left {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
 </style>
 </head>
 <body>
-
+ <div class="top-message">
+        <section class="news-message">
+            <p>Currently</p>
+            <p>Working</p>
+            <p>on</p>
+            <p>Building</p>
+            <p>a More</p>
+            <p>Interactive</p>
+            <p>site!</p>
+            <p>Under </p>
+            <p>Construction :)</p>
+        </section>
+        <section class="news-message">
+            <p>Currently</p>
+            <p>Working</p>
+            <p>on</p>
+            <p>Building</p>
+            <p>a More</p>
+            <p>Interactive</p>
+            <p>site!</p>
+            <p>Under</p>
+            <p>construction :)</p>
+        </section>
+    </div>
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
