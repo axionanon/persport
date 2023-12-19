@@ -1,0 +1,10 @@
+Initial problem: wrapped an image inside an anchor (<a>) tag. The draggable="false" attribute is set on the image, 
+which should generally prevent the image from being draggable, but <a> might be interfereing with this since the image
+leads to a link. To prevent drag while also allowing the link to function, we implement CSS styling: 
+      <style>
+        .no-drag {
+          pointer-events: none;
+        }
+      </style>
+Then we can add class="no-drag" withing our <img src> tag.
+
