@@ -52,11 +52,73 @@ body {font-size:16px; line-height: 30px;}
   max-width: 70%;
   max-height: 70%;
 }
-</style>
-  
-</head>
-<body>
 
+/* the ticker tape */
+
+  .top-message {
+            background-color: #abd6ce;
+            color: white;
+            font-family: helvetica;
+            text-transform: uppercase;
+            overflow-x: hidden;
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            min-width: 100%;
+            margin-bottom: 0;
+        }
+  .news-message {
+            display: flex;
+            flex-shrink: 0;
+            height: 50px;
+            align-items: center;
+            animation: slide-left 10s linear infinite;
+        }
+
+        .news-message p {
+            font-size: 2.5em;
+            font-weight: 100;
+            padding-left: 0.5em;
+        }
+
+        @keyframes slide-left {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+</style>
+</head>
+
+<body>
+  <!-- TICKER TAPE -->
+ <div class="top-message">
+        <section class="news-message">
+            <p>Currently</p>
+            <p>Working</p>
+            <p>on</p>
+            <p>Building</p>
+            <p>a More</p>
+            <p>Interactive</p>
+            <p>site!</p>
+            <p>Under </p>
+            <p>Construction :)</p>
+        </section>
+        <section class="news-message">
+            <p>Currently</p>
+            <p>Working</p>
+            <p>on</p>
+            <p>Building</p>
+            <p>a More</p>
+            <p>Interactive</p>
+            <p>site!</p>
+            <p>Under</p>
+            <p>construction :)</p>
+        </section>
+    </div>
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-blue-gray w3-collapse w3-top w3-large w3-padding;" style="z-index:3;width:300px;font-weight:bold;color:white;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
@@ -88,7 +150,7 @@ body {font-size:16px; line-height: 30px;}
 <div>  
   
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
+  <div class="w3-container" style="margin-top:50px" id="showcase">
     <h1 class="w3-jumbo w3-text-orange"><b>Welcome to my Site</b></h1> <br>
     <h1 class="w3-xxxlarge w3-text-orange"><b>Hi, I'm Kellin.</b></h1>
     <hr style="width:50px;border:5px solid orange" class="w3-round">
@@ -100,17 +162,15 @@ body {font-size:16px; line-height: 30px;}
     <p>Welcome to my personal website!</p>
     <p>I am a recent university graduate with a BA in International Economics and another BA in Art History. The current focus of my studies has been visual analysis of artwork from the 18th to 21st centuries, 
       as well as economic theory and macro-related issues. Throughout my studies I sought to explore the interrelationships between various disciplines, while also trying to understand possible connections 
-      with emerging technologies. In my free time, I love to follow online courses to expand my knowledge in areas of interest. Curiosity is one of my defining traits!
+      with emerging technologies. In my free time, I love to follow online courses to expand my knowledge in areas of interest. Curiosity is one of my defining traits.
     <br> 
       <p>Exceptional with people, my journey into the realms of negotiation and strategy began during my high school mock trial days, sparking a lasting love for navigating intricate scenarios. 
       Adept in communication, team management, and leadership, I’ve honed these skills both academically and through hands-on internship experiences. <br> <br>
-      With a background in branding and marketing, I've worked on coordination and organisation, but I believe my true forte lies in managing others. Considering my natural skillset, I hope to eventually work
-      in partnerships or business development. At the moment, I am developing my sales skills. Work closely with Legal department and Business Manager/Director on sale agreements with complex, highly managed terms<br>
-      My key interests encompass the international art market, sales, partnerships, negotiation and strategy, as well as exploring the realms of web3, machine learning, AI applications, and cryptography.</p>
+      With a background in branding and marketing, I've worked on coordination and organisation, but I believe my true forte lies in managing others. I hope to eventually work in partnerships/sales or business development.<br>
+      My key interests encompass the international art market, sales, business relations, negotiation and strategy, as well as web3, machine learning, AI, and cryptography.</p>
      <p>Beyond these subjects, I have an earnest interest in the world of web3. I've been involved in the web3 communty for some time, and participate in various in-person events/online. <p>
-  <br> <br>
+  <br>
     You can grasp my proficiency in html/css by browsing this site :)
-      <br> 
   <br>
           <img src="https://axionanon.github.io/persport/images/proficiencies.png" style= "width:100%">
     <br>  
@@ -141,20 +201,18 @@ body {font-size:16px; line-height: 30px;}
  <br> 
  <b>Volunteer </b><a href="https://ethprague.com/">ETH Prague</a>, Paralelni Polis, La Fabrika | Prague, CZ			—		June 2022
       <br> 
+      
+      <h3>Other Early Experience</h3>    
  <b>Librarian </b>, Temecula Public Library; Grace Mellman Library 	—		2015-18
       <br> 
-      <i class="custom-italic"><font size="-1"> I was a key volunteer at two local public libraries in my area, and was their most consistent worker for four years. I helped with shelving, 
-     book mending, assisting patrons, information, and other tasks which varied on a weekly basis. Key Accomplishments: Highly familiar with library software, materials and resources, Dewey 
-     Decimal system, and cataloging. Helped lead Children’s Summer Reading Program for 3 years.
+      <i class="custom-italic"><font size="-1"> I was a key volunteer at two local public libraries in my area, and was their most consistent worker for four years. I helped with shelving, book mending, assisting patrons, information, and other tasks which varied on a weekly basis. Key Accomplishments: Highly familiar with library software, materials and resources, Dewey Decimal system (which is still useful in my life!), and cataloging. Helped lead Children’s Summer Reading Program for 3 years.
  </font> </i> 
+<br>
 <b style="margin-top: 0;">Youth Entrepreneur Program</b> City of Temecula | Temecula, CA  	—			2017, 2018 <br>
-    <i class="custom-italic"><font size="-1"> Designed innovative product/service and developed a business model to pitch to a board of professionals experienced in entrepreneurship, law, sales, 
-    and marketing. Learned about operating a start up. Created the company website for both years using Wix and HTML/CSS, created product specifications. </font> </i> 
-
-<b>Founding member of local chapter</b>,  National Charity League (NCL) | Temecula, CA  —	 2012-2018
-  Served as Vice President, Representative, and Parliamentarian of chapter; mentor to younger volunteers.
-  Hands-on volunteering in over 5 areas of support, +200 hours.
-  Organised fundraising events for various non-profits such as American Cancer Society, Red Cross, and Susan G. Komen, as well as cultural events (art fair, museum tours, San Diego Ethnic Food Fair).
+    <i class="custom-italic"><font size="-1"> Designed innovative product/service and developed a business model to pitch to a board of professionals experienced in entrepreneurship, law, sales, and marketing. Learned about operating a start up. Created the company website for both years using Wix and HTML/CSS, created product specifications. </font> </i> 
+<br>
+<b>Founding member of local chapter</b>,  National Charity League (NCL) | Temecula, CA  —	 2012-2018<br>
+<i class="custom-italic"><font size="-1">Served as Vice President, Representative, and Parliamentarian of chapter; mentor to younger volunteers. Hands-on volunteering in over 5 areas of support, +200 hours. Organised fundraising events for various non-profits such as American Cancer Society, Red Cross, and Susan G. Komen, as well as cultural events (art fair, museum tours, San Diego Ethnic Food Fair). </font></i>
 
     </p>
     
@@ -197,8 +255,7 @@ body {font-size:16px; line-height: 30px;}
   <img src="https://axionanon.github.io/persport/images/whale.png" alt="Growth Plan" style="width:100%" > </a>       <div class="w3-container">
           <h3 class= "w3-text-white w3 text-bold">Growth Plan</h3>
           <p class="w3-opacity w3-text-white">Writing</p>
-          <p class= "w3-text-white w3 text-bold">This is a marketing plan I developed for Thе Big Whаle. Our focus was on their new platform called <i>Thе Осеаn</i>. My aim was to identify key areas
-          of development for growth maximisation.</p> <br>
+          <p class= "w3-text-white w3 text-bold">This is a marketing plan I developed for Thе Big Whаle. Our focus was on their new platform called <i>Thе Осеаn</i>. </p> <br>
         </div>
       </div>
     </div>
@@ -218,7 +275,7 @@ body {font-size:16px; line-height: 30px;}
        <a href="https://axionanon.github.io/persport/SITES.html"><img src="https://axionanon.github.io/persport/images/blurb.png" alt="WEBSITES" style="width:100%" > </a>
         <div class="w3-container">
           <h3 class= "w3-text-white w3 text-bold">This Website!</h3>
-          <p class="w3-opacity w3-text-white">Self Explanatory</p>
+          <p class="w3-opacity w3-text-white">Self Explanatory ?</p>
           <p class= "w3-text-white w3 text-bold">Click here to read more about the process of building my personal website(s).</p><br>
         </div>
        </div>
@@ -309,7 +366,7 @@ body {font-size:16px; line-height: 30px;}
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"> <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"><p>&copy; 2023 Kellin.</p></p></div>
 
 <script>
 // Script to open and close sidebar
@@ -359,7 +416,6 @@ function closeVideo() {
 }
   
 </script>
-  
 
 </body>
 </html>
