@@ -60,6 +60,7 @@ body {font-size:16px; line-height: 30px;}
             color: white;
             font-family: helvetica;
             text-transform: uppercase;
+            z-index: 9999; /* Adjust value for above elements */
             overflow-x: hidden;
             display: flex;
             flex-wrap: nowrap;
@@ -120,7 +121,7 @@ body {font-size:16px; line-height: 30px;}
         </section>
     </div>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-blue-gray w3-collapse w3-top w3-large w3-padding;" style="z-index:3;width:300px;margin-top:50px;font-weight:bold;color:white;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-blue-gray w3-collapse w3-top w3-large w3-padding;" style="z-index:3;width:300px;margin-top:0px;font-weight:bold;color:white;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>My<br>Portfolio</b></h3>
@@ -266,7 +267,7 @@ body {font-size:16px; line-height: 30px;}
         <h3 class= "w3-text-white w3 text-bold">DAO Event</h3>
           <p class="w3-opacity w3-text-white">Planning & Development</p>
           <p class= "w3-text-white w3 text-bold">I helped launch this web3 event in Istanbul, served as right hand to CEO. Key roles: execution of launch texts, trailer video, FAQ, 
-            developing action plan.</p><br>
+            developing action plan.</p>
            </div>
          </div>
        </div>
@@ -276,7 +277,7 @@ body {font-size:16px; line-height: 30px;}
         <div class="w3-container">
           <h3 class= "w3-text-white w3 text-bold">This Website!</h3>
           <p class="w3-opacity w3-text-white">Self Explanatory ?</p>
-          <p class= "w3-text-white w3 text-bold">Click here to read more about the process of building my personal website(s).</p><br> <br>
+          <p class= "w3-text-white w3 text-bold">Click here to read more about the process of building my personal website(s).</p><br> <br> <br>
         </div>
        </div>
      </div>
